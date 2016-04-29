@@ -5,7 +5,8 @@ Bundle-SymbolicName: org.eclipse.datatools.enablement.msft.sqlserver.ui;singleto
 Bundle-Version: 1.1.0.qualifier
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Require-Bundle: org.eclipse.ui,
+Require-Bundle: org.eclipse.ui;resolution:=optional,
+ org.eclipse.rap.ui;bundle-version="3.0.2",
  org.eclipse.core.runtime,
  org.eclipse.datatools.connectivity,
  org.eclipse.datatools.connectivity.ui,
